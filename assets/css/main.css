@@ -1647,3 +1647,21 @@ button {
 	body.is-preload #footer {
 		opacity: 0;
 	}
+
+
+
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 15px;                     /* Space between photos */
+    margin-top: 20px;
+}
+
+.photo-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;            /* Optional styling */
+}
+
+	
